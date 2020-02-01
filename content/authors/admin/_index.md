@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Pranit Jaiswal
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,29 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Persuing Masters in Computer Science
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: University of Texas at Arlington
+  url: "https://www.uta.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Android Development
+- Big Data
+- Software Engineering
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: MS in Computer Science
+    institution: University of Texas at Arlington, USA
+    year: 2022
+  - course: BE in Computer Science and Engineering
+    institution: Shri Ramdeobaba College of Engineering and Management, India
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
