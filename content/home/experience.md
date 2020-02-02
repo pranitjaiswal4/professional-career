@@ -37,7 +37,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Technical Lead"
-  company = "JUSTAP Media Pvt Ltd"
+  company = "JUSTAP Media Pvt. Ltd."
   company_url = ""
   location = "Mumbai, India"
   date_start = "2018-03-31"
@@ -47,6 +47,21 @@ date_format = "Jan 2006"
   Responsibilities include:
   * Analysing
   * Modelling
+  * Designing
+  * Coding
+  * Deploying
+  """
+
+[[experience]]
+  title = "Senior Software Engineer"
+  company = "Capgemini India Pvt. Ltd."
+  company_url = ""
+  location = "Mumbai, India"
+  date_start = "2015-06-01"
+  date_end = "2016-12-19"
+  description = """
+  Worked as Android Developer.
+  Responsibilities include:
   * Designing
   * Coding
   * Deploying
