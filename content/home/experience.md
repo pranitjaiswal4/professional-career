@@ -18,6 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-
+[[experience]]
+  title = "IT Developer"
+  company = "RedMango Analytics Pvt. Ltd."
+  company_url = "http://www.redmangoanalytics.com/"
+  location = "Navi Mumbai, India"
+  date_start = "2018-04-02"
+  date_end = "2019-11-28"
+  description = """
+  Responsibilities include:
+  """
+  * Analysing
+  * Modelling
+  * Designing
+  * Coding
+  * Deploying
+  """
 
 +++
