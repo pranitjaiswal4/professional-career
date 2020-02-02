@@ -45,9 +45,9 @@ subtitle = ""
   description = "60%" 
   
   [[feature]]
-  icon = "calculator"
+  icon = "ad"
   icon_pack = "fas"
-  name = "Mathematics"
+  name = "Ad Networks"
   description = "85%" 
 
 +++
