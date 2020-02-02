@@ -21,15 +21,27 @@ subtitle = ""
   description = "90%"
   
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  icon = "java"
+  icon_pack = "fab"
+  name = "JAVA"
+  description = "80%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "php"
+  icon_pack = "fab"
+  name = "PHP"
+  description = "70%" 
+  
+ [[feature]]
+  icon = "database"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "SQL"
+  description = "70%" 
+  
+ [[feature]]
+  icon = "laptop-code"
+  icon_pack = "fas"
+  name = "C/C++"
+  description = "60%" 
 
 +++
