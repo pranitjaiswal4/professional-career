@@ -18,7 +18,7 @@ organizations:
   url: "https://www.uta.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My interests include Android Development, Software Engineering and Big Data.
 
 interests:
 - Android Development
@@ -41,16 +41,23 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:pranit.jaiswal@mavs.uta.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/Pranitjaiswal2
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/pranit.jaiswal4 
+- icon: skype
+  icon_pack: fab
+  link: https://join.skype.com/invite/m5OWIWRcegr1   
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/pranitjaiswal4
+  
+# - icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -62,11 +69,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Pranit Jaiswal is a currently a student of Masters in Computer Science in University of Texas at Arlington. He was a professional full-stack android developer and technical consultant over the last 5 years. He started his professional career with a multinational company Capgemini. His interests includes Android Development, Java-Programming, Software Engineering, and Data Mining. He has developed more than 25 full-stack applications which includes various challenging fields like game, geo-specific application, and telecommunications. He has built his own Ad-Network to serve the geo-specific ads for the start-up company he worked for.
