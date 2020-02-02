@@ -66,7 +66,6 @@ date_format = "Jan 2006"
   * Designing
   * Coding
   * Deploying
-  * Team Lead
   """
 
 +++
