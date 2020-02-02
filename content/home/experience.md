@@ -20,9 +20,9 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "IT Developer"
-  company = "RedMango Analytics Pvt. Ltd."
+  company = "RedMango Analytics Pvt Ltd"
   company_url = "http://www.redmangoanalytics.com/"
-  location = "Navi Mumbai, India"
+  location = "Navi Mumbai India"
   date_start = "2018-04-02"
   date_end = "2019-11-28"
   description = """
