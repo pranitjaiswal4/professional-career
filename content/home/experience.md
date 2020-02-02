@@ -29,10 +29,11 @@ date_format = "Jan 2006"
   Worked as Android Team Lead, Developer, and Project Manager for 2 projects.
   Responsibilities include:
   * Analysing
-  * Modelling
   * Designing
   * Coding
   * Deploying
+  * Team Lead
+  * Project Management
   """
 
 [[experience]]
@@ -46,10 +47,10 @@ date_format = "Jan 2006"
   Worked as Android Technical Lead and Developer.
   Responsibilities include:
   * Analysing
-  * Modelling
   * Designing
   * Coding
   * Deploying
+  * Team Lead
   """
 
 [[experience]]
@@ -65,6 +66,7 @@ date_format = "Jan 2006"
   * Designing
   * Coding
   * Deploying
+  * Team Lead
   """
 
 +++
