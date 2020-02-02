@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Persuing Masters in Computer Science
+role: Student of Masters in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -22,8 +22,8 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 interests:
 - Android Development
-- Big Data
 - Software Engineering
+- Big Data
 
 education:
   courses:
