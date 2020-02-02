@@ -32,4 +32,19 @@ date_format = "Jan 2006"
    * Implement Pandas and NumPy libraries for Statistical Analysis
    * Implement the Python's modules NumPy, Pandas and Matplotlib for generating graphical data’s """
 
+[[experience]]
+  title = "IT Developer"
+  company = "RedMango Analytics Pvt. Ltd."
+  company_url = "http://www.redmangoanalytics.com/"
+  location = "Navi Mumbai, India"
+  date_start = "2018-04-02"
+  date_end = "2019-11-28"
+  description = """
+  Responsibilities include:
+  * Analysing
+  * Modelling
+  * Designing
+  * Coding
+  * Deploying
+
 +++
