@@ -25,9 +25,9 @@ date_format = "Jan 2006"
   location = "Navi Mumbai, India"
   date_start = "2018-04-02"
   date_end = "2019-11-28"
-  description = """Worked as Android Team Lead, Developer, and Project Manager for 2 projects."""
-  """
+  description = """
   Responsibilities include:
+  """
   * Analysing
   * Modelling
   * Designing
