@@ -43,5 +43,11 @@ subtitle = ""
   icon_pack = "fas"
   name = "C/C++"
   description = "60%" 
+  
+  [[feature]]
+  icon = "calculator"
+  icon_pack = "fas"
+  name = "Mathematics"
+  description = "85%" 
 
 +++
