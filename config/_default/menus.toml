@@ -24,13 +24,13 @@
   weight = 40
   
   [[main]]
-  name = "Resume"
-  url = "#Resume"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/pranit-jaiswal"
   weight = 60
   
   [[main]]
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/pranit-jaiswal"
+  name = "CV"
+  url = "files/cv.pdf"
   weight = 70
 
 #[[main]]
