@@ -38,9 +38,9 @@ date_format = "Jan 2006"
   date_start = "2019-02-01"
   date_end = "2019-04-01"
   description = """
-  • It is built to test internet speed of Android devices on all data bands up to 5G, as well as Wi-Fi.
-• This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the device.
-• It can test speeds up to 3.5 Gbps data and Wi-Fi connections.
+  • It is built to test internet speed of Android devices on all data bands up to 5G, as well as Wi-Fi.   
+  • This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the device.   
+  • It can test speeds up to 3.5 Gbps data and Wi-Fi connections.
   """
 
 [[experience]]
@@ -51,9 +51,9 @@ date_format = "Jan 2006"
   date_start = "2019-02-01"
   date_end = "2019-04-01"
   description = """
-  • It is built to test internet speed of Android TV which are using Fiber data connection or Wi-Fi.
-• This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the Android TV.
-• It can test speeds up to 3.5 Gbps Fiber and Wi-Fi connections.
+  • It is built to test internet speed of Android TV which are using Fiber data connection or Wi-Fi.   
+  • This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the Android TV.   
+  • It can test speeds up to 3.5 Gbps Fiber and Wi-Fi connections.
   """
 
 +++
