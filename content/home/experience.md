@@ -56,7 +56,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Senior Software Engineer"
   company = "Capgemini India Pvt. Ltd."
-  company_url = ""
+  company_url = "https://www.capgemini.com/in-en/"
   location = "Mumbai, India"
   date_start = "2015-06-01"
   date_end = "2016-12-19"
