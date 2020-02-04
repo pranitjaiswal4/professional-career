@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Snakes and Ladders – Classic Board Game"
-  company = "View on Play-Store"
+  company = "View on Google Play-Store"
   company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
   location = ""
   date_start = "2019-04-02"
@@ -32,7 +32,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "5G Speed Test – Internet Speed Testing"
-  company = "View on Play-Store"
+  company = "View on Google Play-Store"
   company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
   location = ""
   date_start = "2019-02-01"
@@ -45,7 +45,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Fiber Test – Speed Test for Android Smart TV"
-  company = "View on Play-Store"
+  company = "View on Google Play-Store"
   company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
   location = ""
   date_start = "2019-02-01"
@@ -54,6 +54,32 @@ date_format = "Jan 2006"
   • It is built to test internet speed of Android TV which are using Fiber data connection or Wi-Fi.   
   • This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the Android TV.   
   • It can test speeds up to 3.5 Gbps Fiber and Wi-Fi connections.
+  """
+  
+  [[experience]]
+  title = "Internet Speed Test App (for Amazon Devices)"
+  company = "View on Amazon App-Store"
+  company_url = "https://www.amazon.com/dp/B081K21TZD/ref=cmswemrmtdpU4.ZnEb9HW6FQK"
+  location = ""
+  date_start = "2018-12-01"
+  date_end = "2019-02-01"
+  description = """
+  • It is built to test internet speed of Amazon Firestick and other Amazon Devices.   
+  • This app currently secured the rank #2 in the Speed Testing Apps.   
+  • It can test speeds up to 3.5 Gbps Fiber and Wi-Fi connections.
+  """
+  
+  [[experience]]
+  title = "Satark India – Women Safety App"
+  company = "View on Google Play-Store"
+  company_url = "https://play.google.com/store/apps/details?id=com.rma.satarkindia"
+  location = ""
+  date_start = "2018-09-01"
+  date_end = "2018-11-01"
+  description = """
+  • It is used as an SOS functionality for both medical or safety emergencies, especially for Women.   
+  • It has features like one-click SOS, continuous location share via SMS, and Live Location Tracking of multiple devices (both iOS and Android).   
+  • Front-end and Back-end was designed and managed by me.
   """
 
 +++
