@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company = "View on Play-Store"
   company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
   location = ""
-  date_start = "2018-12-01"
+  date_start = "2019-04-02"
   date_end = "2019-11-15"
   description = """
   • Designed, Developed and Managed a classic board game ‘Snakes and Ladders’ with many new concepts and rules which is more fun to play.
