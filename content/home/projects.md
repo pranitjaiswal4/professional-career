@@ -81,5 +81,54 @@ date_format = "Jan 2006"
   • It has features like one-click SOS, continuous location share via SMS, and Live Location Tracking of multiple devices (both iOS and Android).   
   • Front-end and Back-end was designed and managed by me.
   """
+  
+  [[experience]]
+  title = "MyCoverage"
+  company = "Redmango Analytics Pvt. Ltd. (In-House Project)"
+  company_url = "http://www.redmangoanalytics.com/"
+  location = ""
+  date_start = "2018-07-01"
+  date_end = "2018-08-01"
+  description = """
+  • It is used for regressively fetching telecommunication parameters of a cellphone.   
+  • These details are further analyzed to give solutions to Telecom Providers
+  """
+  
+   [[experience]]
+  title = "Call Analyzer+"
+  company = "Redmango Analytics Pvt. Ltd. (In-House Project)"
+  company_url = "http://www.redmangoanalytics.com/"
+  location = ""
+  date_start = "2018-05-01"
+  date_end = "2018-06-01"
+  description = """
+  • It is used for regressive testing of quality of voice calls on android devices.   
+  • Sound Quality, Mutes, Noise, Dropped Calls, Blocked Calls, etc. important parameters can be derived using this app.   
+  • Results of this analysis is further shared with Telecom operators to improve their voice call quality.
+  """
+  
+   [[experience]]
+  title = "DriveMap"
+  company = "Redmango Analytics Pvt. Ltd. (In-House Project)"
+  company_url = "http://www.redmangoanalytics.com/"
+  location = ""
+  date_start = "2018-05-01"
+  date_end = ""
+  description = """
+  • It is used for in-house android devices tracking.   
+  • We show all proposed routes to follow, live route, and completed routes on Google Map for the in-house drives.
+  """
+  
+  [[experience]]
+  title = "DataUsageTracker"
+  company = "Redmango Analytics Pvt. Ltd. (In-House Project)"
+  company_url = "http://www.redmangoanalytics.com/"
+  location = ""
+  date_start = "2018-04-01"
+  date_end = ""
+  description = """
+  • It is used for detailed data usage tracking of various video streaming applications.   
+  • Actual data used, buffer time, data speed, etc. details of the video streaming app can be derived.
+  """
 
 +++
