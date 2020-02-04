@@ -130,5 +130,86 @@ date_format = "Jan 2006"
   • It is used for detailed data usage tracking of various video streaming applications.   
   • Actual data used, buffer time, data speed, etc. details of the video streaming app can be derived.
   """
-
+  
+   [[experience]]
+  title = "JUSTAP Partner App"
+  company = "View on Google Play-Store"
+  company_url = "https://play.google.com/store/apps/details?id=com.mainappjustap.ownerapp"
+  location = ""
+  date_start = "2017-09-01"
+  date_end = "2018-01-31"
+  description = """
+  • This is specifically designed for the cab drivers who installed JUSTAP TAB in their cars   
+  • It gives them info about Tablet Usage, Earnings, Battery Indicator for TAB, Car Location, Current Offers, and Referrals
+  """
+  
+  [[experience]]
+  title = "JUSTAP Assist App"
+  company = "JUSTAP Media Pvt. Ltd. (In-House Project)"
+  company_url = ""
+  location = ""
+  date_start = "2017-07-01"
+  date_end = "2017-08-01"
+  description = """
+  • Developed a launcher app which makes sure that main JUSTAP App is running in foreground
+  """
+   
+   [[experience]]
+  title = "Main App JUSTAP"
+  company = "View on Google Play-Store"
+  company_url = "https://play.google.com/store/apps/details?id=com.mainappjustap"
+  location = ""
+  date_start = "2016-12-22"
+  date_end = "2017-06-01"
+  description = """
+  • Full stack development of an in-cab-entertainment software for the android tablets fitted inside the cabs   
+  • Single handedly developed the application architecture, UI-UX, Ad Networks, Backend DB, API creation using PHP, Android Application along with Firebase and Google Analytics   
+  • Led a team of 3 developers for further improvements in this app
+  """
+  
+  [[experience]]
+  title = "Note Down"
+  company = "Capgemini India Pvt. Ltd. (Private Project for Client)"
+  company_url = "https://www.capgemini.com/in-en/"
+  location = ""
+  date_start = "2016-03-01"
+  date_end = "2016-12-01"
+  description = """
+  • Developed a very quick and user-friendly expense/income recorder as well as tracker for day-to-day transactions
+  """
+  
+  [[experience]]
+  title = "GVI - Group Voice Interpreter"
+  company = "Capgemini India Pvt. Ltd. (Private Project for Client)"
+  company_url = "https://www.capgemini.com/in-en/"
+  location = ""
+  date_start = "2015-08-01"
+  date_end = "2016-02-01"
+  description = """
+  • Developed a communication app for the people who are having impaired hearing so they can also be a part of group discussions   
+  • Voices in Meetings or discussions can be auto saved in a text format so that it can be used as proof, data mining, determining solutions or conclusions, etc.
+  """
+  
+  [[experience]]
+  title = "A-1 (All-in-One)"
+  company = "Undergraduate Project - Android App"
+  company_url = "http://www.rknec.edu/"
+  location = ""
+  date_start = "2014-01-01"
+  date_end = "2015-03-01"
+  description = """
+  • Developed an app to access and conduct all major academic and extra-curricular components of my college
+  """
+  
+   [[experience]]
+  title = "Click ‘n’ Code"
+  company = "Undergraduate Project - Desktop App"
+  company_url = "http://www.rknec.edu/"
+  location = ""
+  date_start = "2013-07-01"
+  date_end = "2013-12-01"
+  description = """
+  • Invented a new concept editor for desktop for C and C++ coding without typing   
+  • It makes typing a code so easy that user just need few clicks to code the bigger & complex chunk of codes by avoiding possible errors
+  """
 +++
