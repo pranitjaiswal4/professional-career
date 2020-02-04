@@ -27,6 +27,7 @@ date_format = "Jan 2006"
   date_end = "2019-11-15"
   description = """
   • Designed, Developed and Managed a classic board game ‘Snakes and Ladders’ with many new concepts and rules which is more fun to play.
+  &nbsp;
   • This game is developed without using any game engine, it is developed just using native android libraries.
   """
 
