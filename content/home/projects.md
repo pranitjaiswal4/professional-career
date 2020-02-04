@@ -113,7 +113,7 @@ date_format = "Jan 2006"
   company_url = "http://www.redmangoanalytics.com/"
   location = ""
   date_start = "2018-05-01"
-  date_end = ""
+  date_end = "2018-05-31"
   description = """
   • It is used for in-house android devices tracking.   
   • We show all proposed routes to follow, live route, and completed routes on Google Map for the in-house drives.
@@ -125,7 +125,7 @@ date_format = "Jan 2006"
   company_url = "http://www.redmangoanalytics.com/"
   location = ""
   date_start = "2018-04-01"
-  date_end = ""
+  date_end = "2018-04-30"
   description = """
   • It is used for detailed data usage tracking of various video streaming applications.   
   • Actual data used, buffer time, data speed, etc. details of the video streaming app can be derived.
