@@ -1,77 +1,59 @@
 +++
-# A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Experience widget.
+widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Projects"
 subtitle = ""
 
-[content]
-  # Page type to display. E.g. project.
-  page_type = "project"
-  
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-  
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
-  
-   # [[content.filter_button]]
- #    name = "All"
- #    tag = "*"
-  
- #  [[content.filter_button]]
- #   name = "Deep Learning"
-#    tag = "Deep Learning"
-  
-#   [[content.filter_button]]
- #  name = "Other"
- #  tag = "Demo"
+# Date format for experience
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
 
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+# Experiences.
+#   Add/remove as many `[[experience]]` blocks below as you like.
+#   Required fields are `title`, `company`, and `date_start`.
+#   Leave `date_end` empty if it's your current employer.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   5 = Showcase
-  view = 3
+[[experience]]
+  title = "Snakes and Ladders – Classic Board Game"
+  company = "View on Play-Store"
+  company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
+  location = ""
+  date_start = "2018-12-01"
+  date_end = "2019-11-15"
+  description = """
+  • Designed, Developed and Managed a classic board game ‘Snakes and Ladders’ with many new concepts and rules which is more fun to play.
+  • This game is developed without using any game engine, it is developed just using native android libraries.
+  """
 
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
+[[experience]]
+  title = "5G Speed Test – Internet Speed Testing"
+  company = "View on Play-Store"
+  company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
+  location = ""
+  date_start = "2019-02-01"
+  date_end = "2019-04-01"
+  description = """
+  • It is built to test internet speed of Android devices on all data bands up to 5G, as well as Wi-Fi.
+• This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the device.
+• It can test speeds up to 3.5 Gbps data and Wi-Fi connections.
+  """
 
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-  
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+[[experience]]
+  title = "Fiber Test – Speed Test for Android Smart TV"
+  company = "View on Play-Store"
+  company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
+  location = ""
+  date_start = "2019-02-01"
+  date_end = "2019-04-01"
+  description = """
+  • It is built to test internet speed of Android TV which are using Fiber data connection or Wi-Fi.
+• This app produces true and best results amongst all apps available in the market to check what maximum speed you are getting on the Android TV.
+• It can test speeds up to 3.5 Gbps Fiber and Wi-Fi connections.
+  """
 
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
 +++
-
