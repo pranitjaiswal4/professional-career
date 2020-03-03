@@ -19,6 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Data Mining Project - Real or Not? NLP with Disaster Tweets"
+  company = "View Jupyter Notebook (on Kaggle)"
+  company_url = "https://www.kaggle.com/pranitjaiswal4/kernel9d08eb2216"
+  location = ""
+  date_start = "2020-02-26"
+  date_end = "2019-03-03"
+  description = """
+  • Project based on a Kaggle Competition on Classifiers in data mining.
+  • Created a jupyter notebook (using python) to refine given data and conclude results.
+  • Predicted which Tweets are about real disasters and which ones are not.
+  """
+
+[[experience]]
   title = "Snakes and Ladders – Classic Board Game"
   company = "View on Google Play-Store"
   company_url = "https://play.google.com/store/apps/details?id=com.rma.snakeandladder"
