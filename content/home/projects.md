@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company_url = "https://www.kaggle.com/pranitjaiswal4/kernel9d08eb2216"
   location = ""
   date_start = "2020-02-26"
-  date_end = "2019-03-03"
+  date_end = "2020-03-03"
   description = """
   • Project based on a Kaggle Competition on Classifiers in data mining.
   • Created a jupyter notebook (using python) to refine given data and conclude results.
