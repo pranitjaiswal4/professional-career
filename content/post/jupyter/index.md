@@ -180,3 +180,137 @@ plt.show()
 ```
 
 ![png](./output_9.png)
+
+---
+We didn't find any common values for top-20 disaster adn non-disaster keywords between train_data and test_data
+
+---
+
+---
+## 4. Locations
+---
+
+```python
+# Check number of unique "locations"
+print ("Train data unique locations", train_data.location.nunique())
+print ("Test data unique locations", test_data.location.nunique())
+
+# We can see the number of unique locations are not same for both datasets
+```
+
+![png](./output_10.png)
+
+```python
+# Top 20 Locations
+
+plt.figure(figsize=(9,6))
+sns.countplot(y=train_data.location, order = train_data.location.value_counts().iloc[:20].index)
+
+plt.title('Top 20 locations')
+plt.show()
+```
+
+![png](./output_11.png)
+
+---
+As we can see there are same locations with different names like "USA" and "United States", we can merge them to get cleaner data.
+Also we need to check percentage of disaster tweets for these locations.
+
+---
+
+```python
+raw_loc = train_data.location.value_counts()
+top_loc = list(raw_loc[raw_loc>=10].index)
+top_only = train_data[train_data.location.isin(top_loc)]
+
+top_l = top_only.groupby('location').mean()['target'].sort_values(ascending=False)
+plt.figure(figsize=(14,6))
+sns.barplot(x=top_l.index, y=top_l)
+plt.axhline(np.mean(train_data.target))
+plt.xticks(rotation=80)
+plt.show()
+```
+
+![png](./output_12.png)
+
+---
+## 5. Clean missing and duplicate values
+
+As we discussed earlier, we need to clean data for further processing as it is going to have a big effect on our resultant target values.
+
+Also, we need to merge the locations with same meaning.
+for eg. "USA" and "United States", "New York City" and "NYC", etc
+
+---
+
+```python
+# Re-fill missing values
+for col in ['keyword','location']:
+    train_data[col] = train_data[col].fillna('None')
+    test_data[col] = test_data[col].fillna('None')
+
+
+# Merge locations with same meaning
+def clean_loc(x):
+    if x == 'None':
+        return 'None'
+    elif x == 'Earth' or x =='Worldwide' or x == 'Everywhere':
+        return 'World'
+    elif 'New York' in x or 'NYC' in x:
+        return 'New York'    
+    elif 'London' in x:
+        return 'London'
+    elif 'Mumbai' in x:
+        return 'Mumbai'
+    elif 'Washington' in x and 'D' in x and 'C' in x:
+        return 'Washington DC'
+    elif 'San Francisco' in x:
+        return 'San Francisco'
+    elif 'Los Angeles' in x:
+        return 'Los Angeles'
+    elif 'Seattle' in x:
+        return 'Seattle'
+    elif 'Chicago' in x:
+        return 'Chicago'
+    elif 'Toronto' in x:
+        return 'Toronto'
+    elif 'Sacramento' in x:
+        return 'Sacramento'
+    elif 'Atlanta' in x:
+        return 'Atlanta'
+    elif 'California' in x:
+        return 'California'
+    elif 'Florida' in x:
+        return 'Florida'
+    elif 'Texas' in x:
+        return 'Texas'
+    elif 'United States' in x or 'USA' in x:
+        return 'USA'
+    elif 'United Kingdom' in x or 'UK' in x or 'Britain' in x:
+        return 'UK'
+    elif 'Canada' in x:
+        return 'Canada'
+    elif 'India' in x:
+        return 'India'
+    elif 'Kenya' in x:
+        return 'Kenya'
+    elif 'Nigeria' in x:
+        return 'Nigeria'
+    elif 'Australia' in x:
+        return 'Australia'
+    elif 'Indonesia' in x:
+        return 'Indonesia'
+    elif x in top_loc:
+        return x
+    else: return 'Others'
+    
+train_data['location_clean'] = train_data['location'].apply(lambda x: clean_loc(str(x)))
+test_data['location_clean'] = test_data['location'].apply(lambda x: clean_loc(str(x)))
+```
+
+```python
+# Re-check cleaned value for train_data
+print(train_data)
+```
+
+![png](./output_14.png)
