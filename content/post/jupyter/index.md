@@ -54,7 +54,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # Any results you write to the current directory are saved as output.
 ```
 
-![png](./output_0.png)
+![png](./output_1.png)
 
 ---
 ## 1. Import Data
@@ -79,6 +79,9 @@ print (train_data.shape)
 print (test_data.shape)
 print (sample_submission_data.shape)
 ```
+
+![png](./output_2.png)
+
 ---
 ## 2. Refine Data
 ---
@@ -93,7 +96,85 @@ train_data = train_data.drop_duplicates().reset_index(drop=True)
 train_data.isnull().sum()
 ```
 
+![png](./output_4.png)
+
 ```python
 # Check blank values in test_data
 test_data.isnull().sum()
 ```
+
+![png](./output_5.png)
+
+---
+We can see there are very less blank values for "keyword" and more blank values for "location" in train as well as test data.
+
+So, we don't need to replace blank "keyword" and for blank "location" we will check later if it is very much affecting our target.
+---
+
+---
+## 3. Keywords
+---
+
+```python
+# Check number of unique "keywords"
+print ("Train data unique keywords", train_data.keyword.nunique())
+print ("Test data unique keywords", test_data.keyword.nunique())
+
+#We can see the number of unique keywords are same for both datasets
+```
+
+![png](./output_6.png)
+
+---
+Find out the Top 20 keywords for disaster and non-disaster
+---
+
+```python
+# Most common "keywords"
+
+plt.figure(figsize=(9,6))
+
+sns.countplot(y=train_data.keyword, order = train_data.keyword.value_counts().iloc[:25].index)
+plt.title('Top 20 keywords')
+plt.show()
+```
+
+![png](./output_7.png)
+
+```python
+key_d = train_data[train_data.target==1].keyword.value_counts().head(20)
+key_nd = train_data[train_data.target==0].keyword.value_counts().head(20)
+
+plt.figure(figsize=(13,5))
+
+plt.subplot(121)
+sns.barplot(key_d, key_d.index, color='green')
+plt.title('Top 20 keywords for disaster tweets')
+
+plt.subplot(122)
+sns.barplot(key_nd, key_nd.index, color='red')
+plt.title('Top 20 keywords for non-disaster tweets')
+
+plt.show()
+```
+
+![png](./output_8.png)
+
+```python
+top_key_d = train_data.groupby('keyword').mean()['target'].sort_values(ascending=False).head(20)
+top_key_nd = train_data.groupby('keyword').mean()['target'].sort_values().head(20)
+
+plt.figure(figsize=(13,5))
+
+plt.subplot(121)
+sns.barplot(top_key_d, top_key_d.index, color='blue')
+plt.title('Keywords with highest percentage of disaster tweets')
+
+plt.subplot(122)
+sns.barplot(top_key_nd, top_key_nd.index, color='orange')
+plt.title('Keywords with lowest percentage of disaster tweets')
+
+plt.show()
+```
+
+![png](./output_9.png)
