@@ -26,6 +26,13 @@ image:
 projects: []
 ---
 
+***The purpose is of this notebook to submit my project of Data Mining to practice classifier and feature engineering.****
+
+***The reference for this code is taken from the following:**
+1. https://www.kaggle.com/gunesevitan/titanic-advanced-feature-engineering-tutorial
+2. https://www.kaggle.com/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert
+3. https://www.kaggle.com/holfyuen/basic-nlp-on-disaster-tweets
+
 ```python
 # This Python 3 environment comes with many helpful analytics libraries installed
 # It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
@@ -44,9 +51,6 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 # Any results you write to the current directory are saved as output.
 ```
-
-#![png](./index_1_0.png)
-
 
 ## Install Python and JupyterLab
 
