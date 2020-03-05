@@ -47,7 +47,7 @@ Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` 
 ```bash
 mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
 cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
+jupyter lab kernel9d08eb2216.ipynb
 ```
 
 The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
@@ -70,5 +70,5 @@ date: 2019-03-03
 ## Convert notebook to Markdown
 
 ```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+jupyter nbconvert kernel9d08eb2216.ipynb --to markdown --NbConvertApp.output_files_dir=.
 ```
