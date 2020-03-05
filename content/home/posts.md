@@ -23,6 +23,7 @@ subtitle = ""
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
+
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
