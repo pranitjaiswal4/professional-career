@@ -26,12 +26,14 @@ image:
 projects: []
 ---
 
+---
 ***The purpose is of this notebook to submit my project of Data Mining to practice classifier and feature engineering.****
 
 ***The reference for this code is taken from the following:**
 1. https://www.kaggle.com/gunesevitan/titanic-advanced-feature-engineering-tutorial
 2. https://www.kaggle.com/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert
 3. https://www.kaggle.com/holfyuen/basic-nlp-on-disaster-tweets
+---
 
 ```python
 # This Python 3 environment comes with many helpful analytics libraries installed
@@ -52,41 +54,26 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # Any results you write to the current directory are saved as output.
 ```
 
-## Install Python and JupyterLab
-
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
-
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
-
-## Create or upload a Jupyter notebook
-
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
-
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab kernel9d08eb2216.ipynb
-```
-
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
-
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter: 
-
-```
 ---
-title: Data Mining Project - Real or Not? NLP with Disaster Tweets
-date: 2019-03-03
-
-# Put any other Academic metadata here...
+## 1. Import Data
 ---
-```
 
-## Convert notebook to Markdown
+```python
+# Import libraries required
 
-```bash
-jupyter nbconvert kernel9d08eb2216.ipynb --to markdown --NbConvertApp.output_files_dir=.
+import seaborn as sns
+import string
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+# Load data files
+train_data = pd.read_csv("/kaggle/input/nlp-getting-started/train.csv")
+test_data = pd.read_csv("/kaggle/input/nlp-getting-started/test.csv")
+sample_submission_data = pd.read_csv("/kaggle/input/nlp-getting-started/sample_submission.csv")
+
+print (train_data.shape)
+print (test_data.shape)
+print (sample_submission_data.shape)
 ```
