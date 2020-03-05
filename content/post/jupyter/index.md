@@ -54,9 +54,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # Any results you write to the current directory are saved as output.
 ```
 
----
-image: output_0.png
----
+![png](./output_0.png)
 
 ---
 ## 1. Import Data
