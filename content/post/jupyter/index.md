@@ -55,6 +55,10 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 ```
 
 ---
+image: output_0.png
+---
+
+---
 ## 1. Import Data
 ---
 
@@ -76,4 +80,22 @@ sample_submission_data = pd.read_csv("/kaggle/input/nlp-getting-started/sample_s
 print (train_data.shape)
 print (test_data.shape)
 print (sample_submission_data.shape)
+```
+---
+## 2. Refine Data
+---
+
+```python
+# Remove duplicate values from train_data
+train_data = train_data.drop_duplicates().reset_index(drop=True)
+```
+
+```python
+# Check blank values in train_data
+train_data.isnull().sum()
+```
+
+```python
+# Check blank values in test_data
+test_data.isnull().sum()
 ```
