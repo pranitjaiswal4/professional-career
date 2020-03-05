@@ -109,6 +109,7 @@ test_data.isnull().sum()
 We can see there are very less blank values for "keyword" and more blank values for "location" in train as well as test data.
 
 So, we don't need to replace blank "keyword" and for blank "location" we will check later if it is very much affecting our target.
+
 ---
 
 ---
@@ -127,6 +128,7 @@ print ("Test data unique keywords", test_data.keyword.nunique())
 
 ---
 Find out the Top 20 keywords for disaster and non-disaster
+
 ---
 
 ```python
