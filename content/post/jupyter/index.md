@@ -314,3 +314,34 @@ print(train_data)
 ```
 
 ![png](./output_14.png)
+
+```python
+# Re-check cleaned value for test_data
+print(test_data)
+```
+
+![png](./output_15.png)
+
+
+```python
+# Plot cleaned location data on graph
+
+top_l2 = train_data.groupby('location_clean').mean()['target'].sort_values(ascending=False)
+plt.figure(figsize=(14,6))
+sns.barplot(x=top_l2.index, y=top_l2)
+plt.axhline(np.mean(train_data.target))
+plt.xticks(rotation=80)
+plt.show()
+```
+
+![png](./output_16.png)
+
+---
+## 6. Clean text in the columns
+
+Here we clean up the text column by:
+
+Making a 'clean' text column, removing links and unnecessary white spaces
+Creating separate columns containing lists of hashtags, mentions, and links
+
+---
