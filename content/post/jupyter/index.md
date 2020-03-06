@@ -29,14 +29,15 @@ projects: []
 
 ---
 ### Summary:
-• Project based on a Kaggle Competition on Classifiers in data mining.   
+• This Project is based on a Kaggle Competition on Classifiers in data mining.   
 
 • Created a jupyter notebook (using python) to refine given data and conclude results.   
 
-• Predicted which Tweets are about real disasters and which ones are not.
+• Predicted which Tweets are about real disasters and which ones are not.   
+
+• The purpose is of this notebook to submit my project of Data Mining to practice classifier and feature engineering.
 
 
-### The purpose is of this notebook to submit my project of Data Mining to practice classifier and feature engineering.
 ### The reference for this code is taken from the following:
 
 1. https://www.kaggle.com/gunesevitan/titanic-advanced-feature-engineering-tutorial
