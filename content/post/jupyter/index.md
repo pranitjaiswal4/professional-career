@@ -643,8 +643,9 @@ print ('Training accuracy: %.4f' % pipeline.score(X_train, y_train))
 ![png](./output_33.png)
 
 ---
-## Download Link for jupyter notebook:
-<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Click here to Download</a>
+## Download Links:
+<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Download: Jupyter Notebook</a>
+<a href="https://pranitjaiswal.netlify.com/files/inputData.zip" download>Download: Input Data (.zip)</a>
 
 ---
 
