@@ -1,7 +1,13 @@
 ---
 title: Data Mining Project - Practice Classifiers
 subtitle: Real or Not? NLP with Disaster Tweets
-summary: • Project based on a Kaggle Competition on Classifiers in data mining. • Created a jupyter notebook (using python) to refine given data and conclude results. • Predicted which Tweets are about real disasters and which ones are not."""
+summary: 
+• Project based on a Kaggle Competition on Classifiers in data mining. 
+
+• Created a jupyter notebook (using python) to refine given data and conclude results. 
+
+• Predicted which Tweets are about real disasters and which ones are not."""
+
 authors:
 - admin
 tags: []
@@ -24,6 +30,7 @@ image:
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
 ---
 
 ---
