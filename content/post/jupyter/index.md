@@ -29,7 +29,7 @@ projects: []
 
 ---
 ### Summary:
-• This Project is based on a Kaggle Competition on Classifiers in data mining.   
+• This Project is based on a Kaggle Competition on Classifiers in data mining ( https://www.kaggle.com/c/nlp-getting-started ).   
 
 • Created a jupyter notebook (using python) to refine given data and conclude results.   
 
@@ -38,7 +38,7 @@ projects: []
 • The purpose is of this notebook to submit my project of Data Mining to practice classifier and feature engineering.
 
 
-### The reference for this code is taken from the following:
+### Reference for this code is taken from the following urls:
 
 1. https://www.kaggle.com/gunesevitan/titanic-advanced-feature-engineering-tutorial
 2. https://www.kaggle.com/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert
@@ -663,7 +663,8 @@ print ('Training accuracy: %.4f' % pipeline.score(X_train, y_train))
 ---
 ## Rank in Kaggle Leaderboard & Score
 
-This jupyter notebook is written in a Kaggle Competition ( https://www.kaggle.com/c/nlp-getting-started ).
+This jupyter notebook is written for a Kaggle Competition 
+(Notebook link: https://www.kaggle.com/pranitjaiswal4/kernel9d08eb2216 ).
 Pranit Jaiswal has secured Rank #2146 with score of 0.78527
 on Date: 03/03/2020
 
