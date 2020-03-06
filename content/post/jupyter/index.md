@@ -645,11 +645,12 @@ print ('Training accuracy: %.4f' % pipeline.score(X_train, y_train))
 ---
 # Rank in Leaderboard & Score
 
-This notebook is written in a Kaggle Competition (https://www.kaggle.com/c/nlp-getting-started).
+This jupyter notebook is written in a Kaggle Competition (https://www.kaggle.com/c/nlp-getting-started).
 Pranit Jaiswal has secured Rank #2146 with score of 0.78527
 on Date: 03/03/2020
 
-### Download Link for notebook:
+### Download Link for jupyter notebook:
+https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb
 
 ---
 
