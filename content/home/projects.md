@@ -20,8 +20,8 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Data Mining Project - Real or Not? NLP with Disaster Tweets"
-  company = "View Jupyter Notebook (on Kaggle)"
-  company_url = "https://www.kaggle.com/pranitjaiswal4/kernel9d08eb2216"
+  company = "View Jupyter Notebook"
+  company_url = "https://pranitjaiswal.netlify.com/post/jupyter/"
   location = ""
   date_start = "2020-02-26"
   date_end = "2020-03-03"
