@@ -1,14 +1,7 @@
 ---
 title: Data Mining Project - Practice Classifiers
 subtitle: Real or Not? NLP with Disaster Tweets
-summary: 
-
-• Project based on a Kaggle Competition on Classifiers in data mining.   
-
-• Created a jupyter notebook (using python) to refine given data and conclude results.   
-
-• Predicted which Tweets are about real disasters and which ones are not.
-
+summary:
 authors:
 - admin
 tags: []
@@ -42,7 +35,7 @@ projects: []
 
 • Predicted which Tweets are about real disasters and which ones are not.
 
----
+
 ### The purpose is of this notebook to submit my project of Data Mining to practice classifier and feature engineering.
 ### The reference for this code is taken from the following:
 
@@ -663,6 +656,8 @@ print ('Training accuracy: %.4f' % pipeline.score(X_train, y_train))
 <a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Jupyter Notebook (.ipynb)</a>   
 
 <a href="https://pranitjaiswal.netlify.com/files/inputData.zip" download>Input Data (.zip)</a>
+
+---
 
 ---
 ## Rank in Kaggle Leaderboard & Score
