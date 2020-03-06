@@ -644,7 +644,8 @@ print ('Training accuracy: %.4f' % pipeline.score(X_train, y_train))
 
 ---
 ## Download Links:
-<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Download: Jupyter Notebook</a>
+<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Download: Jupyter Notebook</a>   
+
 <a href="https://pranitjaiswal.netlify.com/files/inputData.zip" download>Download: Input Data (.zip)</a>
 
 ---
@@ -656,6 +657,6 @@ This jupyter notebook is written in a Kaggle Competition ( https://www.kaggle.co
 Pranit Jaiswal has secured Rank #2146 with score of 0.78527
 on Date: 03/03/2020
 
----
-
 ![png](./Leaderboard2.png)
+
+---
