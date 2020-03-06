@@ -644,9 +644,9 @@ print ('Training accuracy: %.4f' % pipeline.score(X_train, y_train))
 
 ---
 ## Download Links:
-<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Download: Jupyter Notebook</a>   
+<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Jupyter Notebook (.ipynb)</a>   
 
-<a href="https://pranitjaiswal.netlify.com/files/inputData.zip" download>Download: Input Data (.zip)</a>
+<a href="https://pranitjaiswal.netlify.com/files/inputData.zip" download>Input Data (.zip)</a>
 
 ---
 
