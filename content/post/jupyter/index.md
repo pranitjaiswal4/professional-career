@@ -650,7 +650,7 @@ Pranit Jaiswal has secured Rank #2146 with score of 0.78527
 on Date: 03/03/2020
 
 ### Download Link for jupyter notebook:
-https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb
+<a href="https://pranitjaiswal.netlify.com/files/kernel9d08eb2216.ipynb" download>Click to Download</a>
 
 ---
 
