@@ -1,6 +1,6 @@
 ---
-title: Data Mining Project - Practice Classifiers
-subtitle: Real or Not? NLP with Disaster Tweets
+title: Data Mining Assignment - Learn Concept of Overfitting
+subtitle: Overfitting Using Polynomial Regression
 summary:
 authors:
 - admin
