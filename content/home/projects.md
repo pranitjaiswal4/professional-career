@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Data Mining Assignment - Overfitting Using Polynomial Regression"
   company = "View Jupyter Notebook"
-  company_url = "https://pranitjaiswal.netlify.com/post/jupyterpoly"
+  company_url = "https://pranitjaiswal.netlify.com/post/jupyter"
   location = ""
   date_start = "2020-03-05"
   date_end = "2020-03-17"
