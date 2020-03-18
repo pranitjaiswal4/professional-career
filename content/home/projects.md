@@ -21,10 +21,10 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Data Mining Assignment - Overfitting Using Polynomial Regression"
   company = "View Jupyter Notebook"
-  company_url = "https://pranitjaiswal.netlify.com/post/jupyter/index2.md"
+  company_url = "https://pranitjaiswal.netlify.com/post/jupyterpoly"
   location = ""
-  date_start = "2020-02-17"
-  date_end = "2020-03-05"
+  date_start = "2020-03-05"
+  date_end = "2020-03-17"
   description = """
   • The goal of this assignment is to learn about the concept of overfitting using the Polynomial regression.   
   • Created a jupyter notebook (using python) to implement this concept.
@@ -33,7 +33,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Data Mining Project - Real or Not? NLP with Disaster Tweets"
   company = "View Jupyter Notebook"
-  company_url = "https://pranitjaiswal.netlify.com/post/jupyter/index.md"
+  company_url = "https://pranitjaiswal.netlify.com/post/jupytertweets"
   location = ""
   date_start = "2020-02-26"
   date_end = "2020-03-03"
