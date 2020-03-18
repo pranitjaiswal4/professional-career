@@ -18,30 +18,6 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[experience]]
-  title = "Data Mining Assignment - Overfitting Using Polynomial Regression"
-  company = "View Jupyter Notebook"
-  company_url = "https://pranitjaiswal.netlify.com/post/jupyter/index2.md"
-  location = ""
-  date_start = "2020-02-17"
-  date_end = "2020-03-05"
-  description = """
-  • The goal of this assignment is to learn about the concept of overfitting using the Polynomial regression.   
-  • Created a jupyter notebook (using python) to implement this concept.
-  """
-
-[[experience]]
-  title = "Data Mining Project - Real or Not? NLP with Disaster Tweets"
-  company = "View Jupyter Notebook"
-  company_url = "https://pranitjaiswal.netlify.com/post/jupyter/index.md"
-  location = ""
-  date_start = "2020-02-26"
-  date_end = "2020-03-03"
-  description = """
-  • Project based on a Kaggle Competition on Classifiers in data mining.   
-  • Created a jupyter notebook (using python) to refine given data and conclude results.   
-  • Predicted which Tweets are about real disasters and which ones are not.
-  """
 
 [[experience]]
   title = "Snakes and Ladders – Classic Board Game"
