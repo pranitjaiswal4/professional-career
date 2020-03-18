@@ -25,9 +25,9 @@ date_format = "Jan 2006"
   location = ""
   date_start = "2020-02-17"
   date_end = "2020-03-05"
-  description = """   
+  description = """
   • The goal of this assignment is to learn about the concept of overfitting using the Polynomial regression.   
-  • Created a jupyter notebook (using python) to implement this concept.   
+  • Created a jupyter notebook (using python) to implement this concept.
   """
 
 [[experience]]
