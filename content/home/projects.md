@@ -25,9 +25,9 @@ date_format = "Jan 2006"
   location = ""
   date_start = "2020-02-17"
   date_end = "2020-03-05"
-  description = """
-  • The goal of this assignment is to learn about the concept of overfitting using the Polynomial regression.
-  • Created a jupyter notebook (using python) to implement this concept.
+  description = """   
+  • The goal of this assignment is to learn about the concept of overfitting using the Polynomial regression.   
+  • Created a jupyter notebook (using python) to implement this concept.   
   """
 
 [[experience]]
@@ -38,8 +38,8 @@ date_format = "Jan 2006"
   date_start = "2020-02-26"
   date_end = "2020-03-03"
   description = """
-  • Project based on a Kaggle Competition on Classifiers in data mining.
-  • Created a jupyter notebook (using python) to refine given data and conclude results.
+  • Project based on a Kaggle Competition on Classifiers in data mining.   
+  • Created a jupyter notebook (using python) to refine given data and conclude results.   
   • Predicted which Tweets are about real disasters and which ones are not.
   """
 
