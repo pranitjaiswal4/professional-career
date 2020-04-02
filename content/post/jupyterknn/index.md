@@ -27,6 +27,14 @@ projects: []
 
 ---
 
+---
+## Download Links:
+<a href="https://pranitjaiswal.netlify.com/files/Jaiswal_02.ipynb" download>Jupyter Notebook (.ipynb)</a>   
+
+<a href="https://pranitjaiswal.netlify.com/files/bezdekIris.data" download>Input Data (.zip)</a>
+
+---
+
 ## a.	Divide the dataset as development and test
 
 
