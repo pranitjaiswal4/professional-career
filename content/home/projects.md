@@ -19,7 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Data Mining Assignment - Overfitting Using Polynomial Regression"
+  title = "Data Mining Assignment 2 - Implementation of kNN Classifier"
+  company = "View Jupyter Notebook"
+  company_url = "https://pranitjaiswal.netlify.com/post/jupyterknn"
+  location = ""
+  date_start = "2020-03-19"
+  date_end = "2020-04-02"
+  description = """
+  • The goal of this assignment is to learn about the kNN.   
+  • Created a jupyter notebook (using python) to implement this concept.
+  """
+
+[[experience]]
+  title = "Data Mining Assignment 1 - Overfitting Using Polynomial Regression"
   company = "View Jupyter Notebook"
   company_url = "https://pranitjaiswal.netlify.com/post/jupyterpolyreg"
   location = ""
