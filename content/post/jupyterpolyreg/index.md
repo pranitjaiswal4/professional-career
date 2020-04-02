@@ -1,6 +1,6 @@
 ---
-title: Data Mining Assignment - Learn concept of Overfitting
-subtitle: Overfitting Using Polynomial Regression
+title: Data Mining Assignment - Learn about kNN Classifier
+subtitle: Implementation of kNN Classifier using Euclidean distance, Normalized Euclidean Distance, and Cosine Similarity
 summary:
 authors:
 - admin
