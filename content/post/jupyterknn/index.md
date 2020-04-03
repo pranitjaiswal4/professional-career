@@ -43,6 +43,7 @@ projects: []
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import scipy as sp
 import csv
 import random
 import math
@@ -224,6 +225,8 @@ ratio_factor = 0.58
 devSet=[]
 testSet=[]
 
+devSetNumeric = []
+
 with open(filename, 'r') as csvfile:
         lines = csv.reader(csvfile)
         
@@ -240,7 +243,7 @@ with open(filename, 'r') as csvfile:
                 devSet.append(dataset[x])
             else:
                 testSet.append(dataset[x])
-                
+        
 print ('Length of devSet:')
 #print (devSet)
 print (len(devSet))
@@ -250,9 +253,9 @@ print(len(testSet))
 ```
 
     Length of devSet:
-    82
+    92
     Length of testSet:
-    68
+    58
     
 
 ## b. Implementing kNN using Distance Metric
@@ -293,7 +296,12 @@ def normalized_euclidean_distance(rec1, rec2):
     eu_dist = 0;
     
     for y in range(4):
-        eu_dist += pow((rec1[y] - rec2[y]), 2)
+        num = (rec1[y]-rec2[y])
+        
+        avg = (rec1[y]-rec2[y])/2
+        den = (rec1[y]-avg) + (rec2[y]-avg)
+        
+        eu_dist += pow((num/den), 2)
     
     eu_dist = math.sqrt(eu_dist)
     
@@ -495,10 +503,10 @@ print(euAccuracy5)
 print(euAccuracy7)
 ```
 
-    96.34146341463415
-    97.5609756097561
-    96.34146341463415
-    97.5609756097561
+    95.65217391304348
+    96.73913043478261
+    96.73913043478261
+    97.82608695652173
     
 
 
@@ -517,10 +525,10 @@ print(neuAccuracy5)
 print(neuAccuracy7)
 ```
 
-    96.34146341463415
-    97.5609756097561
-    96.34146341463415
-    97.5609756097561
+    95.65217391304348
+    97.82608695652173
+    97.82608695652173
+    96.73913043478261
     
 
 
@@ -539,10 +547,10 @@ print(cosAccuracy5)
 print(cosAccuracy7)
 ```
 
-    96.34146341463415
-    95.1219512195122
-    95.1219512195122
-    96.34146341463415
+    96.73913043478261
+    95.65217391304348
+    95.65217391304348
+    95.65217391304348
     
 
 #### c. ii) Find optimal hyperparameters which give maximum accuracy
@@ -578,7 +586,7 @@ min_accuracy = accuracies[0][2]
 ```
 
     Optimal hyperparameters which give maximum accuracy:
-    ['Euclidean Distance', 'k=3', 97.5609756097561]
+    ['Euclidean Distance', 'k=7', 97.82608695652173]
     
 
 #### c. iii) Draw bar charts for accuracy
@@ -599,7 +607,7 @@ ax.set(ylim=[min_accuracy-1, max_accuracy])
 
 
 
-    [(94.1219512195122, 97.5609756097561)]
+    [(94.65217391304348, 97.82608695652173)]
 
 
 
@@ -688,10 +696,10 @@ print(euAccuracytestSet5)
 print(euAccuracytestSet7)
 ```
 
-    94.11764705882352
-    95.58823529411765
-    95.58823529411765
-    95.58823529411765
+    91.37931034482759
+    93.10344827586206
+    96.55172413793103
+    98.27586206896551
     
 
 
@@ -710,10 +718,10 @@ print(neuAccuracytestSet5)
 print(neuAccuracytestSet7)
 ```
 
-    94.11764705882352
-    95.58823529411765
-    95.58823529411765
-    95.58823529411765
+    94.82758620689656
+    93.10344827586206
+    94.82758620689656
+    94.82758620689656
     
 
 
@@ -732,9 +740,13 @@ print(cosAccuracytestSet5)
 print(cosAccuracytestSet7)
 ```
 
-    98.52941176470588
-    98.52941176470588
-    97.05882352941177
-    95.58823529411765
+    94.82758620689656
+    98.27586206896551
+    96.55172413793103
+    96.55172413793103
     
 
+
+```python
+
+```
