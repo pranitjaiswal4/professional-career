@@ -1,3 +1,40 @@
+---
+title: Data Mining Assignment - Learn about Naive Bayes Classifier (NBC)
+subtitle: Implementation of Naive Bayes Classifier and Effect of Smoothing
+summary:
+authors:
+- admin
+tags: []
+categories: []
+date: "2019-02-05T00:00:00Z"
+lastMod: "2019-09-05T00:00:00Z"
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: ""
+  focal_point: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+
+---
+
+---
+## Download Links:
+<a href="https://pranitjaiswal.netlify.com/files/Jaiswal_03.ipynb" download>Jupyter Notebook (.ipynb)</a>   
+
+<a href="https://pranitjaiswal.netlify.com/files/aclImdb_v1.tar.gz" download>Input Data (.tar.gz)</a>
+
+---
+
 ## a. Divide the dataset as train, development, and test
 
 
