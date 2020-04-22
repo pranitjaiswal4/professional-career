@@ -31,7 +31,7 @@ projects: []
 ## Download Links:
 <a href="https://pranitjaiswal.netlify.com/files/Jaiswal_03.ipynb" download>Jupyter Notebook (.ipynb)</a>   
 
-<a href="https://pranitjaiswal.netlify.com/files/aclImdb_v1.tar.gz" download>Input Data (.tar.gz)</a>
+<a href="https://drive.google.com/open?id=1N6xowmiSTo2LAIIp7qnQu9pV4ryyJsVe" download>Input Data (.tar.gz)</a>
 
 ---
 
