@@ -19,6 +19,18 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Data Mining Assignment 3 - Implementation of Naive Bayes Classifier (NBC)"
+  company = "View Jupyter Notebook"
+  company_url = "https://pranitjaiswal.netlify.com/post/jupyternbc"
+  location = ""
+  date_start = "2020-04-14"
+  date_end = "2020-04-21"
+  description = """
+  • The goal of this assignment is to learn about the Naive Bayes Classifier.   
+  • Created a jupyter notebook (using python) to implement this concept.
+  """
+
+[[experience]]
   title = "Data Mining Assignment 2 - Implementation of kNN Classifier"
   company = "View Jupyter Notebook"
   company_url = "https://pranitjaiswal.netlify.com/post/jupyterknn"
