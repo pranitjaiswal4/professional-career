@@ -37,6 +37,7 @@ projects: []
 
 ---
 
+---
 # Term Project - Data Mining - CSE 5334
 
 #### Name: Pranit Jaiswal
@@ -49,6 +50,9 @@ projects: []
 Given data contains 13M records of user ratings and reviews for board games.   
 We need to build a classifier which can predict 'rating' (1 to 10) as output when the input is 'review'.
 
+---
+
+---
 # Challenges:
 I have listed the most critical challenges I faced while building this text classifier:   
    
@@ -66,6 +70,8 @@ I have listed the most critical challenges I faced while building this text clas
 * Searching best classifiers which can deal with the large text dataset   
 * Deciding optimal hyperparameters for each type of classifier, which will give more accurate results even if the computing resources are limited   
 * Deciding the best Classifier, as the mean square error and accuracy was varying significantly with the variation in the size of the dataset   
+
+---
 
 # 1. Import all required libraries
 
