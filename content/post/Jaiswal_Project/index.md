@@ -49,6 +49,24 @@ projects: []
 Given data contains 13M records of user ratings and reviews for board games.   
 We need to build a classifier which can predict 'rating' (1 to 10) as output when the input is 'review'.
 
+# Challenges:
+I have listed the most critical challenges I faced while building this text classifier:   
+   
+* Dealing with large dataset containing more than 13M Records   
+* Refining the dataset:   
+	1. Lots of empty reviews   
+	2. It contained 3408 distinct ratings which was a huge number for prediction result.   
+	3. Non-ASCII characters   
+	4. Non-English words   
+	5. Special characters were affecting the words frequencies   
+	
+* Deciding size of small dataset to be used for train, dev and test   
+* Maintaining ratio of count of each rating while creating small dataset   
+* Deciding the threshold frequency for words in the dataset to create Vectorizer   
+* Searching best classifiers which can deal with the large text dataset   
+* Deciding optimal hyperparameters for each type of classifier, which will give more accurate results even if the computing resources are limited   
+* Deciding the best Classifier, as the mean square error and accuracy was varying significantly with the variation in the size of the dataset   
+
 # 1. Import all required libraries
 
 
