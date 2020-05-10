@@ -34,6 +34,7 @@ projects: []
 <a href="https://pranitjaiswal.netlify.com/files/Jaiswal_Project.ipynb" download>Run web application - Rating Predictor</a>   
 
 <a href="https://www.youtube.com/" download>Watch Project Video on YouTube</a>
+
 ---
 
 # Term Project - Data Mining - CSE 5334
