@@ -19,6 +19,18 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Data Mining - Term Project - Build Text Classifier"
+  company = "Check Project Report along with the notebook"
+  company_url = "https://pranitjaiswal.netlify.com/post/Jaiswal_Project"
+  location = ""
+  date_start = "2020-04-23"
+  date_end = "2020-05-10"
+  description = """
+  • The goal of this assignment is to learn about the Naive Bayes Classifier.   
+  • Created a jupyter notebook (using python) to implement this concept.
+  """
+
+[[experience]]
   title = "Data Mining Assignment 3 - Implementation of Naive Bayes Classifier (NBC)"
   company = "View Jupyter Notebook"
   company_url = "https://pranitjaiswal.netlify.com/post/jupyternbc"
@@ -26,8 +38,10 @@ date_format = "Jan 2006"
   date_start = "2020-04-14"
   date_end = "2020-04-21"
   description = """
-  • The goal of this assignment is to learn about the Naive Bayes Classifier.   
+  • The goal of this project is to learn more about the Classifiers for text classification.   
+  • Given the review, predicted the rating of the game.
   • Created a jupyter notebook (using python) to implement this concept.
+  • Also, created an web-application and hosted on Amazon web server.
   """
 
 [[experience]]
