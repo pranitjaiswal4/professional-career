@@ -1563,7 +1563,7 @@ ________________________________________________________________________________
 If you have enough computing resources and time to execute kNN-   
 You can use the following code which I used earlier for testing:   
 
-Download Link: 
+<a href="https://pranitjaiswal.netlify.com/files/kNN.txt" download>Click here to download kNN code</a>
 __________________________________________________________________________________________________________________
 # 9. Compare results obtained from different classifiers
 
