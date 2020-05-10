@@ -31,7 +31,7 @@ projects: []
 ## Important Links:
 <a href="https://pranitjaiswal.netlify.com/files/Jaiswal_Project.ipynb" download>Download Jupyter Notebook (.ipynb)</a>   
 
-<a href="http://107.21.86.146:5000/" download>Run web-application of this project- Rating Predictor</a>   
+<a href="http://107.21.86.146:5000/" download>Run web-application of this project - Rating Predictor</a>   
 
 <a href="https://www.youtube.com/" download>Watch Project Video on YouTube</a>
 
