@@ -1563,36 +1563,7 @@ ________________________________________________________________________________
 If you have enough computing resources and time to execute kNN-   
 You can use the following code which I used earlier for testing:   
 
-#k = 1, 9, 15, 17
-
-k = [1, 9, 15, 17]
-mse_knn_list = dict()
-accuracy_knn_list = dict()
-
-for k_val in k:
-    kNN = KNeighborsClassifier(n_neighbors=k_val)
-    kNN.fit(X_train, y_train)
-    
-    y_pred_dev = kNN.predict(X_dev_arr)
-    mse_dev = mean_squared_error(y_dev, y_pred_dev)
-    accuracy_dev = accuracy_score(y_dev, y_pred_dev)*100
-    
-    mse_knn_list[k_val] = mse_dev;
-    accuracy_knn_list[k_val] = accuracy_dev;
-    
-    print("For k=",k_val)
-    print("Mean Squared Error:", mse_dev)
-    print("Accuracy:", accuracy_dev)
-    print()
-    
-mse_knn_list = sorted(mse_knn_list.items(), key=operator.itemgetter(1), reverse=False)
-accuracy_knn_list = sorted(accuracy_knn_list.items(), key=operator.itemgetter(1), reverse=True)
-
-lowest_mse_knn = mse_knn_list[0]
-highest_accuracy_knn = accuracy_knn_list[0]
-
-print("Best k value along with lowest mean square error:", lowest_mse_knn)
-print("Best k value along with highest accuracy:", highest_accuracy_knn)  
+Download Link: 
 __________________________________________________________________________________________________________________
 # 9. Compare results obtained from different classifiers
 
@@ -1644,7 +1615,7 @@ accuracy_dict_list
 
 
 _______________________________________________________________________________________________________________________________
-Draw Graph to better visualize count of each rating
+Draw Graph to better visualize comparison between all Classifiers used
 _______________________________________________________________________________________________________________________________
 
 
