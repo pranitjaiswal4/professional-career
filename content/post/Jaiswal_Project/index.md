@@ -73,6 +73,34 @@ I have listed the most critical challenges I faced while building this text clas
 
 _____________________________________________________________________________________________________________________________
 
+# Experiments:   
+This project defination was very challenging for me and I did a lot of experiments to achieve the better results.
+Few important experiments are as follows:   
+   
+## Experiment 1: Hyperparameter tuning   
+I thoroughly studied all the classifiers I applied to understand which hyperparameters will affect the results most.   
+Not only increasing and decreasing the values of hyperparameters, but also understanding what is the minimum and maximum threshold I should keep to get better performance.   
+
+###### Following Hyperparameter Tuning I performed for each classifiers:   
+a) For Multinomial Naive Bayes:   
+Experimenting with different smoothing parameter values (alpha).   
+
+b) For SVM:    
+Experimented with the different values of C and its effect on the performance.   
+C is the penalty parameter, which represents misclassification or error term.   
+The misclassification or error term tells the SVM optimization how much error is bearable.   
+This is how you can control the trade-off between decision boundary and misclassification term.   
+A smaller value of C creates a small-margin hyperplane and a larger value of C creates a larger-margin hyperplane.   
+   
+c) For Random Forest Classifier:   
+Experimented through distinct values for maximum depth allowed for each tree in the forest, as well as the total number of trees in forest.   
+Achieved a balanced model by tuning these values with multiple testing and found the best possible thresholds for our dataset.   
+
+## Experiment 2: Overfitting   
+After concluding the best classifier using all the hyperparameter tuning, I have gone through overfitting using maximum possible test dataset.   
+It performed well with the mean square error as less possible as 2.77 and the accuracy of over 32.40%   
+_____________________________________________________________________________________________________________________________
+
 # 1. Import all required libraries
 
 
