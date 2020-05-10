@@ -73,6 +73,43 @@ I have listed the most critical challenges I faced while building this text clas
 
 _____________________________________________________________________________________________________________________________
 
+# Actions taken to overcome challenges and My Contribution:   
+   
+After analyzing this huge dataset thoroughly, I came to one conclusion that:   
+There are many ambiguities in the reviews.   
+So, If you do a good refining of this dataset will give you more optimal performance than the experimenting with hyperparamters for each alogorithm.   
+   
+* First of all I refined the dataset by dropping all the rows containing empty reviews.   
+After this, reduced dataset (2.63M) was approx 80% smaller in size than the original dataset (13M).   
+   
+* Converted all words in reviews to lower case which caused significant difference in the accuracy of classifier   
+Example:   
+Without lowering all the words, classifier treated "Good" and "good" as two different words while computing word frequencies.   
+   
+* Dataset had 3408 distinct ratings which is a huge number for prediction result.   
+Also, as per our goal, we did't need continuous rating values, we need absolute rating values between (1 to 10).   
+So, I rounded off all rating values to the nearest integer.   
+   
+* Replaced the rating value from '0' to '1'.    
+It didn't caused any negative effect as we were having only 11 records containing '0' rating.   
+   
+* I observed that even after refining the data we are getting more than 2.6M records.   
+Building a classifier using such huge amount of data on a machine with limited resources was ending up in:   
+1. Lack of processing speed   
+2. Memory error   
+To overcome this:   
+1. I used the subset of the dataset (tried and found largest possible subset) for feasible computation for all algorithms we will try to implement.      
+2. Make sure we take data containing all distinct 'rating' values, otherwise it is possible that you may miss all or very large amount of records for a particular rating.   
+3. Maintain Ratio of each distinct 'rating' value to maintain consistency.   
+   
+* Removed all Non-ASCII characters, Non-English words, Special characters.   
+All of these were affecting word frequencies, accuracy of classifier, and computing time.   
+   
+* Other than the data refining, my main contribution was to decide the size of maximum possible train dataset and deciding all the parameter values required for vectorizer and each classifier.   
+* Studied many text classification alogorithms along with effect of their respective hyperparamters to better understand the implementation of each alogorithm.   
+* Applied the most suitable alogorithms to achieve better performance.   
+_____________________________________________________________________________________________________________________________
+
 # Experiments:   
 This project defination was very challenging for me and I did a lot of experiments to achieve the better results.
 Few important experiments are as follows:   
