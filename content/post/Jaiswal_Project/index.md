@@ -1014,7 +1014,7 @@ Even if there will be sufficient resources and even if we use libraries then als
 5. If KNN is considered, then Distance Computing time will be very high.
 
 Conclusion:
-1. Use largest possible dataset for feasible computation for all algorithms we will try to implement.   
+1. Use the subset of the dataset (try and find largest possible subset) for feasible computation for all algorithms we will try to implement.   
 2. Make sure we take data containing all distinct 'rating' values, otherwise it is possible that you may miss all or very large amount of records for a particular rating.   
 3. Maintain Ratio of each distinct 'rating' value to maintain consistency.
 
