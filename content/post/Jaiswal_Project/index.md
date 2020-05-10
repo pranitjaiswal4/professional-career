@@ -1877,6 +1877,6 @@ print("Predicted Rating: ", y_single[0])
 print()
 ```
 
-    Enter your review: worst
+    Enter your review: worst game I have ever played
     Predicted Rating:  1
 
