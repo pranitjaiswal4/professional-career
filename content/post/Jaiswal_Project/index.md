@@ -1284,7 +1284,11 @@ print("runtime: %s sec" % (end_time - start_time))
     runtime: 446.3000693321228 sec
     
 
-### 8.1 b) Multinomial Naive Bayes
+### 8.1 b) Multinomial Naive Bayes (Using Smoothing)
+###### Note: 
+* Experimented with different values of alpha : (Laplace/Lidstone) smoothing parameter.   
+* Tested the dataset with different alpha values.   
+* Used the code with the most effective alpha value to avoid large computation time.
 
 
 ```python
