@@ -1039,7 +1039,6 @@ print(original_len_small_df)
 1. Remove non-ASCII characters
 2. Remove non-English characters
 3. Remove special characters
-4. Remove stop words
 
 
 ```python
