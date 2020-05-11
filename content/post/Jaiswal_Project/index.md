@@ -33,7 +33,7 @@ projects: []
 
 <a href="http://ec2-107-21-86-146.compute-1.amazonaws.com:5000/" download>Run web-application of this project - Rating Predictor</a>   
 
-<a href="https://www.youtube.com/" download>Watch Project Video on YouTube</a>
+<a href="https://www.youtube.com/watch?v=f24ubgC3Bz4&feature=youtu.be" download>Watch Project Video on YouTube</a>
 
 ---
 
