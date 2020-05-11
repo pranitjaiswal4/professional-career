@@ -35,7 +35,7 @@ projects: []
 
 <a href="https://www.youtube.com/watch?v=f24ubgC3Bz4&feature=youtu.be" download>Watch Project Video on YouTube</a>
 
-<a href="https://github.com/pranitjaiswal4/rating-predictor-app/blob/master/README.md" download>Steps to deploy my classifier model as a Web Application</a>
+<a href="https://github.com/pranitjaiswal4/rating-predictor-app/blob/master/README.md" download>Steps to deploy my classifier model as a Web-Application</a>
 
 <a href="https://github.com/pranitjaiswal4/rating-predictor-app" download>Source code for my web application</a>
 
