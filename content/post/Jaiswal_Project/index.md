@@ -1844,6 +1844,7 @@ print('Accuracy:', accuracy_test)
     
 
 # 12. Take dump of the Best Classifier model along with its vectorizer
+Reference: https://medium.com/datadriveninvestor/deploy-your-machine-learning-model-using-flask-made-easy-now-635d2f12c50c   
 This dump can be used to create a web application for rating prediction.
 
 I have also created one Rating Predictor using our best classifier model:   
