@@ -63,7 +63,6 @@ on Date: 03/03/2020
 
 1. https://www.kaggle.com/gunesevitan/titanic-advanced-feature-engineering-tutorial
 2. https://www.kaggle.com/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert
-3. https://www.kaggle.com/holfyuen/basic-nlp-on-disaster-tweets
 ---
 
 ```python
