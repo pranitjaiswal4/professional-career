@@ -19,6 +19,17 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Distributed Systems - Chat Server"
+  company = "Check on Github"
+  company_url = "https://github.com/pranitjaiswal4/chat-server"
+  location = ""
+  date_start = "2020-02-14"
+  date_end = "2020-05-12"
+  description = """
+  • Developed software for PC to implement synchronous chat server, asynchronous chat server, & vector clocks.   
+  """
+
+[[experience]]
   title = "Data Mining - Term Project - Build Text Classifier"
   company = "Check Project Report along with the notebook"
   company_url = "https://pranitjaiswal.netlify.com/post/Jaiswal_Project"
@@ -266,8 +277,8 @@ date_format = "Jan 2006"
   
    [[experience]]
   title = "Click ‘n’ Code"
-  company = "Undergraduate Project - Desktop App"
-  company_url = "http://www.rknec.edu/"
+  company = "Check on Github (Undergraduate Project)"
+  company_url = "https://github.com/pranitjaiswal4/click-n-code"
   location = ""
   date_start = "2013-07-01"
   date_end = "2013-12-01"
