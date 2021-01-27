@@ -41,8 +41,8 @@ date_format = "Jan 2006"
   company = "JUSTAP Media Pvt. Ltd."
   company_url = ""
   location = "Mumbai, India"
-  date_start = "2018-03-31"
-  date_end = "2016-12-22"
+  date_start = "2016-12-22"
+  date_end = "2018-03-31"
   description = """
   Worked as Android Technical Lead and Developer.
   Responsibilities includes:
