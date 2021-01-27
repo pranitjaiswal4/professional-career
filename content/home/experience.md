@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "IT Developer"
+  title = "Senior Software Developer"
   company = "RedMango Analytics Pvt. Ltd."
   company_url = "http://www.redmangoanalytics.com/"
   location = "Navi Mumbai, India"
