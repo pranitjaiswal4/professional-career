@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2018-04-02"
   date_end = "2019-11-28"
   description = """
-  Worked as Android Team Lead, Developer, and Project Manager for 2 projects.
+  Worked as Team Lead, Developer, and Project Manager for 2 projects.
   Responsibilities includes:
   * Analyzing
   * Designing
@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   date_start = "2016-12-22"
   date_end = "2018-03-31"
   description = """
-  Worked as Android Technical Lead and Developer.
+  Worked as Technical Lead and Developer.
   Responsibilities includes:
   * Analyzing
   * Designing
@@ -61,7 +61,7 @@ date_format = "Jan 2006"
   date_start = "2015-06-01"
   date_end = "2016-12-19"
   description = """
-  Worked as Android Developer.
+  Worked as Developer.
   Responsibilities includes:
   * Designing
   * Coding
